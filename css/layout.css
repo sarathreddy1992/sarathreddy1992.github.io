@@ -400,38 +400,49 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.python {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
+  	-moz-animation: python 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 40%;
+.spark {
+	width: 45%;
+	-moz-animation: spark 2s ease;
+	-webkit-animation: spark 2s ease
+}
+.deeplearning {
+  	width: 50%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
+.algorithms {
   	width: 70%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: algorithms 2s ease;
+  	-webkit-animation: algorithms 2s ease;
 }
-.css {
+.Web  {
   	width: 50%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: Web Devlopment 2s ease;
+  	-webkit-animation: Web Devlopment 2s ease;
 }
-.html5 {
+.C {
   	width: 55%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: C 2s ease;
+  	-webkit-animation: C 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.Data {
+  	width: 80%;
+  	-moz-animation: Data 2s ease;
+  	-webkit-animation: Data 2s ease;
 }
 
-@-moz-keyframes photoshop {
+
+@-moz-keyframes spark {
+0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
+@-moz-keyframes python {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
@@ -443,15 +454,15 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes css {
+@-moz-keyframes web {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes C {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes Data {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -468,17 +479,28 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes web {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes C {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes Data {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+
+
+/*--------------------------------------------------------------------*/
+#contact h1 {
+   font: 15px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #95A3A3;
 }
 
 /* ------------------------------------------------------------------ */
